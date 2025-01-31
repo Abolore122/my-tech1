@@ -1,0 +1,38 @@
+.vectorIcon {
+    height: 969px;
+    width: 1403px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .clipPathGroup,
+  .features {
+    position: relative;
+    overflow: hidden;
+  }
+  .clipPathGroup {
+    height: 809px;
+    flex: 1;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .features {
+    width: 100%;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 80px var(--padding-56xl);
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1350px) {
+    .features {
+      padding-left: var(--padding-18xl);
+      padding-right: var(--padding-18xl);
+      box-sizing: border-box;
+    }
+  }
+  

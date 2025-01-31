@@ -1,0 +1,55 @@
+.image149Icon {
+    height: 407px;
+    width: 346px;
+    position: relative;
+    border-radius: var(--br-41xl);
+    object-fit: cover;
+    display: none;
+    max-width: 100%;
+  }
+  .jeremyAdams {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    z-index: 1;
+  }
+  .authorOne,
+  .testimonialOne {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .authorOne {
+    align-self: stretch;
+    border-radius: var(--br-41xl);
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: var(--padding-295xl) var(--padding-37xl) var(--padding-50xl);
+    background-image: url(/public/author-one@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .testimonialOne {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-12xs);
+    min-width: 259px;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--labels-primary);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 800px) {
+    .jeremyAdams {
+      font-size: var(--font-size-lgi);
+      line-height: 19px;
+    }
+    .authorOne {
+      padding: var(--padding-185xl) var(--padding-xl) var(--padding-26xl);
+      box-sizing: border-box;
+    }
+  }
+  

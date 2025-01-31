@@ -1,0 +1,100 @@
+.image137Icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .image137Wrapper,
+  .image138Wrapper,
+  .image139Wrapper {
+    height: 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-sm) var(--padding-xl) 0;
+    box-sizing: border-box;
+  }
+  .image138Wrapper,
+  .image139Wrapper {
+    height: 117px;
+    padding: 0 var(--padding-sm) var(--padding-8xs) 0;
+  }
+  .image139Wrapper {
+    height: 112px;
+    padding: 0 0 var(--padding-3xs);
+  }
+  .image140Icon,
+  .image141Icon {
+    position: absolute;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .image140Icon {
+    height: calc(100% - 19px);
+    top: 9px;
+    bottom: 10px;
+    left: 0;
+    width: 286px;
+    z-index: 1;
+  }
+  .image141Icon {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 256px;
+    width: 246px;
+    z-index: 2;
+  }
+  .image140Parent {
+    height: 138px;
+    flex: 1;
+    position: relative;
+    min-width: 326px;
+    max-width: 100%;
+  }
+  .partnerLogos {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 691px;
+    max-width: 100%;
+    row-gap: 20px;
+  }
+  .image142Wrapper {
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-8xs);
+    box-sizing: border-box;
+  }
+  .partnerLogosParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    gap: var(--gap-36xl);
+    max-width: 100%;
+  }
+  @media screen and (max-width: 1350px) {
+    .partnerLogos {
+      flex-wrap: wrap;
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .partnerLogosParent {
+      gap: var(--gap-8xl);
+    }
+  }
+  

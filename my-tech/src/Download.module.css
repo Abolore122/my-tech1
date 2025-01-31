@@ -1,0 +1,282 @@
+.appToday,
+.downloadTheOlatech {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.appToday {
+  width: 270px;
+  display: flex;
+  align-items: center;
+}
+.appDownloadBanner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.ourCustomQr {
+  margin: 0;
+}
+.ourCustomQrContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.appDownloadBannerParent,
+.ourCustomQrCodeWillTakeYWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ourCustomQrCodeWillTakeYWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-16xl) 0 var(--padding-9xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--grey4);
+  font-family: var(--font-avenir);
+}
+.appDownloadBannerParent {
+  flex-direction: column;
+  gap: var(--gap-26xl);
+}
+.component2Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.appstore,
+.downloadOn {
+  position: relative;
+  line-height: 16px;
+  font-family: var(--font-avenir);
+  color: var(--pay4meapp-white);
+  text-align: left;
+}
+.downloadOn {
+  align-self: stretch;
+  font-size: var(--font-size-3xs);
+  font-weight: 500;
+}
+.appstore {
+  font-size: var(--font-size-base);
+  font-weight: 800;
+  display: inline-block;
+  min-width: 71px;
+}
+.link,
+.storeName {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.storeName {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.link {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--pay4meapp-black);
+  border-radius: var(--br-21xl);
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  min-width: 103px;
+}
+.component1Icon {
+  height: 23.9px;
+  width: 23.9px;
+  position: relative;
+}
+.playstore {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 16px;
+  font-weight: 800;
+  font-family: var(--font-avenir);
+  color: var(--pay4meapp-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 71.1px;
+}
+.appStoreLinks {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.appStoreLinksWrapper,
+.frameParent,
+.pageInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.appStoreLinksWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-9xl);
+  box-sizing: border-box;
+}
+.frameParent,
+.pageInner {
+  flex-direction: column;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-31xl);
+}
+.pageInner {
+  padding: 0 0 var(--padding-29xl);
+  box-sizing: border-box;
+}
+.component1Icon1,
+.frameChild {
+  max-width: 100%;
+  overflow: hidden;
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+}
+.component1Icon1 {
+  height: 338px;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.download,
+.frameGroup,
+.page,
+.pay4meQrcodeRoundedsvg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.pay4meQrcodeRoundedsvg {
+  flex: 1;
+  border-radius: 29.2px;
+  background-color: var(--pay4meapp-white);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 29.2px var(--padding-10xl) 29.3px;
+  max-width: 4507.07px;
+  z-index: 1;
+}
+.download,
+.frameGroup,
+.page {
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  align-items: flex-start;
+  padding: 95px var(--padding-132xl) 0.5px 164px;
+  position: relative;
+  min-width: 463px;
+}
+.download,
+.page {
+  overflow: hidden;
+}
+.page {
+  flex: 1;
+  border-radius: 32px;
+  background-color: #ecf5e2;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-16xl) var(--padding-5xl);
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-inter);
+}
+.download {
+  width: 1403px;
+  background-color: var(--pay4meapp-white);
+  align-items: flex-start;
+  padding: var(--padding-41xl) 58px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .appToday,
+  .downloadTheOlatech {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .appDownloadBannerParent {
+    gap: var(--gap-3xl);
+  }
+  .frameParent {
+    gap: var(--gap-6xl);
+  }
+  .frameGroup,
+  .pageInner {
+    min-width: 100%;
+  }
+  .frameGroup {
+    padding: var(--padding-43xl) var(--padding-56xl) var(--padding-xl) 82px;
+    box-sizing: border-box;
+  }
+  .page {
+    gap: var(--gap-6xl);
+  }
+  .download {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .appToday,
+  .downloadTheOlatech {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .appStoreLinks {
+    flex-wrap: wrap;
+  }
+  .pageInner {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .pay4meQrcodeRoundedsvg {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frameGroup {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

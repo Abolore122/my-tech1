@@ -1,0 +1,802 @@
+.phasesToGet {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .appSteps {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 302px 0 337px;
+  }
+  .component1Icon {
+    height: 112px;
+    width: 112px;
+    position: absolute;
+    margin: 0 !important;
+    top: -21px;
+    right: 38px;
+    z-index: 1;
+  }
+  .downloadInstructionsChild {
+    width: 485px;
+    height: 497px;
+    position: relative;
+    border-radius: var(--br-18xl);
+    background-color: var(--color-white);
+    display: none;
+    max-width: 100%;
+  }
+  .div {
+    position: relative;
+    line-height: 28px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 18px;
+    z-index: 1;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-base);
+  }
+  .downloadTheMobile,
+  .getStartedBy {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+  }
+  .downloadTheMobile {
+    align-self: stretch;
+    font-size: var(--font-size-5xl);
+    line-height: 28px;
+    font-weight: 700;
+    font-family: var(--font-cabinet-grotesk);
+    color: var(--grey-9);
+  }
+  .getStartedBy {
+    font-size: inherit;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .component1Icon1 {
+    height: 160.7px;
+    width: 160.7px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .pay4meQrcodeRoundedsvg,
+  .qRCodeImage {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pay4meQrcodeRoundedsvg {
+    border-radius: 7.9px;
+    background-color: var(--color-white);
+    overflow: hidden;
+    padding: 1.6px var(--padding-12xs) 1.7px;
+    box-sizing: border-box;
+    max-width: 2143.28px;
+  }
+  .qRCodeImage {
+    border-radius: var(--br-base);
+    background-color: var(--grey-9);
+    border: 0.6px solid var(--white-7);
+    padding: var(--padding-5xl) var(--padding-33xl);
+    z-index: 1;
+  }
+  .qRCodeImageWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 49px 0 var(--padding-35xl);
+  }
+  .appDownload,
+  .downloadDescription,
+  .downloadInstructions,
+  .qRCodeImageWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .downloadDescription {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-xs);
+    font-size: var(--font-size-base);
+    color: var(--grey4);
+  }
+  .appDownload,
+  .downloadInstructions {
+    flex: 1;
+    max-width: 100%;
+  }
+  .downloadInstructions {
+    border-radius: var(--br-18xl);
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: var(--padding-7xl) var(--padding-34xl) 61px;
+    box-sizing: border-box;
+    gap: var(--gap-13xl);
+  }
+  .appDownload {
+    flex-direction: row;
+    position: relative;
+    min-width: 317px;
+  }
+  .frameChild {
+    width: 487px;
+    height: 497px;
+    border-radius: var(--br-18xl);
+    background-color: var(--color-white);
+    display: none;
+    max-width: 100%;
+  }
+  .frameChild,
+  .signUpOn,
+  .time {
+    position: relative;
+  }
+  .signUpOn {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .time {
+    width: 16px;
+    line-height: 9px;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .timeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7.4px 0 0;
+  }
+  .levelsIcon {
+    height: 22.1px;
+    width: 57.6px;
+    position: absolute;
+    margin: 0 !important;
+    right: -56.1px;
+    bottom: -4.5px;
+  }
+  .levelIconsChild,
+  .levelIconsItem {
+    height: 5.8px;
+    width: 31.3px;
+    box-shadow: 0 0.7px 0.7px rgba(0, 0, 0, 0.04);
+    border-radius: var(--br-7xs-8);
+    background-color: var(--color-darkslategray-100);
+  }
+  .levelIconsItem {
+    width: 5.8px;
+  }
+  .levelIcons {
+    flex: 1;
+    border-radius: 0 0 7.29px 7.29px;
+    background-color: var(--color-gray-100);
+    padding: 5.8px var(--padding-2xs) 5.9px;
+    gap: 5.9px;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .levelIcons,
+  .levelsParent,
+  .levelsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .levelsParent {
+    flex: 1;
+    position: relative;
+  }
+  .levelsWrapper {
+    align-self: stretch;
+    padding: 0 var(--padding-12xs);
+  }
+  .component1Icon2 {
+    align-self: stretch;
+    height: 14.7px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .innerPadding,
+  .levelsContainer,
+  .paddingContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .levelsContainer {
+    flex: 1;
+    flex-direction: column;
+    gap: 13.5px;
+  }
+  .innerPadding,
+  .paddingContainer {
+    flex-direction: row;
+  }
+  .innerPadding {
+    flex: 1;
+    gap: 22px;
+    flex-shrink: 0;
+  }
+  .paddingContainer {
+    margin-top: -54.5px;
+    padding: 0 var(--padding-5xs);
+  }
+  .signUp {
+    font-weight: 800;
+    display: inline-block;
+    min-width: 34px;
+  }
+  .johDoe,
+  .name,
+  .signUp {
+    position: relative;
+    line-height: 120%;
+  }
+  .name {
+    align-self: stretch;
+    font-weight: 500;
+  }
+  .johDoe {
+    display: inline-block;
+    min-width: 32px;
+  }
+  .formFields,
+  .inputFields {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .inputFields {
+    border-radius: var(--br-5xs-3);
+    background-color: var(--color-white);
+    border: 0.4px solid var(--white-7);
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-5xs) var(--padding-8xs);
+    color: var(--grey-1);
+  }
+  .formFields {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-7xs-8);
+  }
+  .examplegmailcom {
+    position: relative;
+    line-height: 120%;
+    display: inline-block;
+    min-width: 76px;
+  }
+  .signupAction,
+  .userForm {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-xs-7);
+  }
+  .userForm {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--font-size-5xs);
+    color: var(--grey-6);
+  }
+  .signupAction {
+    padding: 8.7px 0 0;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 8.7px;
+    color: #2b2b2b;
+    font-family: var(--font-avenir);
+  }
+  .component18,
+  .component18Wrapper,
+  .imageWrapper,
+  .signupAction {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .imageWrapper {
+    flex: 1;
+    border-radius: 14.58px 14.58px 0 0;
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: 54.4px var(--padding-8xs) 0;
+    gap: 8.8px;
+  }
+  .component18,
+  .component18Wrapper {
+    overflow: hidden;
+    flex-direction: row;
+  }
+  .component18 {
+    flex: 1;
+    border-radius: 23.33px 23.33px 0 0;
+    background-color: var(--color-gray-100);
+    padding: 7.3px var(--padding-8xs) 0;
+  }
+  .component18Wrapper {
+    height: 214px;
+    width: 270px;
+    border-radius: var(--br-base);
+    background-color: #e7fbcf;
+    border: 0.6px solid #c5dbab;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding: var(--padding-16xl) 41px 0 43px;
+    z-index: 1;
+  }
+  .signupDescription,
+  .signupIllustration {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+  }
+  .signupIllustration {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 var(--padding-8xl);
+    text-align: center;
+    font-size: 7px;
+    color: var(--labels-primary);
+    font-family: var(--font-inter);
+  }
+  .signupDescription {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-lgi);
+    font-size: var(--font-size-base);
+    color: var(--grey4);
+    font-family: var(--font-avenir);
+  }
+  .signupSteps {
+    width: 373px;
+    flex-direction: column;
+    gap: var(--gap-13xl);
+    font-size: var(--font-size-5xl);
+    color: var(--grey-9);
+    font-family: var(--font-cabinet-grotesk);
+  }
+  .appDownloadParent,
+  .rectangleParent,
+  .signupSteps {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .rectangleParent {
+    flex: 0.8645;
+    border-radius: var(--br-18xl);
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: var(--padding-7xl) var(--padding-14xl) var(--padding-35xl);
+    box-sizing: border-box;
+    gap: var(--gap-29xl);
+    min-width: 317px;
+  }
+  .appDownloadParent {
+    width: 1183px;
+    flex-direction: row;
+    gap: 211px;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--labels-primary);
+    font-family: var(--font-avenir);
+  }
+  .vuesaxlinearbankIcon {
+    height: 33.5px;
+    width: 33.5px;
+    position: relative;
+  }
+  .vuesaxlinearbankWrapper {
+    border-radius: var(--br-base);
+    background-color: #111;
+    border: 1px solid var(--grey5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-mini) var(--padding-mini) var(--padding-mini)
+      var(--padding-base);
+  }
+  .frameItem {
+    align-self: stretch;
+    height: 11px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .iconLayoutInner {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 33.5px 0 0;
+  }
+  .frameInner {
+    height: 48px;
+    width: 48px;
+    position: relative;
+  }
+  .iconLayout,
+  .iconLayoutChild {
+    border-radius: var(--br-base);
+    background-color: var(--white-1);
+    flex-direction: row;
+  }
+  .iconLayoutChild {
+    height: 67px;
+    border: 2px solid var(--color-white);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-sm) var(--padding-5xs);
+  }
+  .iconLayout {
+    border: 0.6px solid var(--white-7);
+    overflow: hidden;
+    padding: 72px var(--padding-5xl) 73px;
+    gap: var(--gap-9xs);
+    z-index: 1;
+  }
+  .iconLayout,
+  .iconLayoutWrapper,
+  .paymentSetup,
+  .setupSteps {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .iconLayoutWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 47px;
+  }
+  .paymentSetup,
+  .setupSteps {
+    flex-direction: column;
+  }
+  .setupSteps {
+    align-self: stretch;
+    gap: var(--gap-13xl);
+    font-size: var(--font-size-5xl);
+    color: var(--grey-9);
+    font-family: var(--font-cabinet-grotesk);
+  }
+  .paymentSetup {
+    width: 485px;
+    border-radius: var(--br-18xl);
+    background-color: var(--color-white);
+    padding: var(--padding-5xl) var(--padding-37xl) var(--padding-37xl);
+    box-sizing: border-box;
+    gap: var(--gap-29xl);
+    min-width: 487px;
+    max-width: 100%;
+  }
+  .image144Icon {
+    height: 200px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .paymentDescription,
+  .paymentImage {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .paymentImage {
+    flex-direction: row;
+    padding: 0 var(--padding-5xs);
+  }
+  .paymentDescription {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 36px;
+    font-size: var(--font-size-base);
+    color: var(--grey4);
+    font-family: var(--font-avenir);
+  }
+  .completePayment,
+  .paymentSteps {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .completePayment {
+    border-radius: var(--br-18xl);
+    background-color: var(--color-white);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 17px var(--padding-34xl) var(--padding-41xl);
+    box-sizing: border-box;
+    gap: var(--gap-29xl);
+    min-width: 487px;
+  }
+  .paymentSteps {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .downloadApp {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    font-family: var(--font-avenir);
+    color: var(--grey-9);
+    text-align: left;
+  }
+  .buttonContainer,
+  .downloadButton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .downloadButton {
+    width: 126.5px;
+    flex-shrink: 0;
+    padding: 0 var(--padding-8xs) 0 0;
+    box-sizing: border-box;
+  }
+  .buttonContainer {
+    padding: var(--padding-10xs-5) 0 0;
+  }
+  .buttonSeparatorChild {
+    width: 0.5px;
+    height: 15.5px;
+    position: relative;
+    border-right: 0.5px solid var(--grey-6);
+    box-sizing: border-box;
+  }
+  .buttonSeparator {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .component2Icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+  }
+  .actionButtons,
+  .buttonLayout {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .buttonLayout {
+    flex: 1;
+    box-shadow: 0-4px 0 rgba(148, 197, 87, 0.55) inset,
+      0 4px 0 rgba(149, 178, 113, 0.25) inset;
+    border-radius: var(--br-14xl);
+    background-color: var(--color-tomato);
+    border: 1px solid var(--color-darkseagreen);
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: var(--padding-sm) var(--padding-11xl) var(--padding-sm)
+      var(--padding-13xl);
+    gap: var(--gap-7xs-5);
+  }
+  .actionButtons {
+    cursor: pointer;
+    border: 0;
+    padding: 0 477px 0 472px;
+    background-color: transparent;
+    height: 57px;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .paymentStepsParent {
+    align-self: stretch;
+    gap: var(--gap-60xl);
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--labels-primary);
+    font-family: var(--font-avenir);
+  }
+  .frameParent,
+  .paymentStepsParent,
+  .steps {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent {
+    align-self: stretch;
+    gap: 128px;
+  }
+  .steps {
+    width: 1403px;
+    background-color: #fafafa;
+    padding: 132px 101px 76px var(--padding-86xl);
+    box-sizing: border-box;
+    gap: var(--gap-60xl);
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--grey-8);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1350px) {
+    .appSteps {
+      padding-left: var(--padding-65xl);
+      padding-right: var(--padding-56xl);
+      box-sizing: border-box;
+    }
+    .downloadInstructions {
+      gap: var(--gap-base);
+      padding: var(--padding-xl) var(--padding-7xl) 40px;
+      box-sizing: border-box;
+    }
+    .rectangleParent {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-16xl);
+      box-sizing: border-box;
+    }
+    .appDownloadParent {
+      gap: 53px;
+    }
+    .completePayment,
+    .paymentSetup {
+      gap: var(--gap-5xl);
+      padding: var(--padding-xl) 28px var(--padding-17xl);
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .completePayment {
+      padding: var(--padding-xl) var(--padding-7xl) var(--padding-20xl);
+    }
+    .paymentStepsParent {
+      gap: var(--gap-xl);
+    }
+    .frameParent {
+      gap: var(--gap-13xl);
+    }
+    .steps {
+      gap: var(--gap-20xl);
+      padding-left: var(--padding-33xl);
+      padding-right: var(--padding-31xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .appSteps {
+      padding-left: 168px;
+      padding-right: 151px;
+      box-sizing: border-box;
+    }
+    .appDownload,
+    .rectangleParent {
+      flex: 1;
+    }
+    .appDownloadParent {
+      gap: 105px;
+      flex-wrap: wrap;
+    }
+    .completePayment,
+    .paymentSetup {
+      flex: 1;
+    }
+    .paymentSteps {
+      flex-wrap: wrap;
+    }
+    .paymentStepsParent {
+      gap: var(--gap-20xl);
+    }
+    .frameParent {
+      gap: 64px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .phasesToGet {
+      font-size: var(--font-size-19xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .phasesToGet {
+      font-size: var(--font-size-10xl);
+    }
+    .appSteps {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .div {
+      font-size: var(--font-size-base);
+      line-height: 22px;
+    }
+    .downloadTheMobile {
+      font-size: var(--font-size-lgi);
+      line-height: 22px;
+    }
+    .qRCodeImage,
+    .qRCodeImageWrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .signUpOn {
+      font-size: var(--font-size-lgi);
+      line-height: 22px;
+    }
+    .component18Wrapper {
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .signupSteps {
+      gap: var(--gap-base);
+    }
+    .rectangleParent {
+      gap: var(--gap-5xl);
+    }
+    .appDownloadParent {
+      gap: var(--gap-7xl);
+    }
+    .iconLayoutWrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .setupSteps {
+      gap: var(--gap-base);
+    }
+    .paymentDescription {
+      gap: var(--gap-lg);
+    }
+    .actionButtons {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .frameParent {
+      gap: var(--gap-base);
+    }
+    .steps {
+      gap: var(--gap-xl);
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  

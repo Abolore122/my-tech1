@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
-import FrameComponent from "../components/FrameComponent";
-import FrameComponent1 from "../components/FrameComponent1";
-import FrameComponent2 from "../components/FrameComponent2";
+import FrameComponent from "./FrameComponent";
+import FrameComponent1 from "./FrameComponent1";
+import FrameComponent2 from "./FrameComponent2";
 import styles from "./Hero.module.css";
 
 const Hero: FunctionComponent = () => {
